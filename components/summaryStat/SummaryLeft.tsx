@@ -11,10 +11,6 @@ const Charts = dynamic(() => import("./Chart"), { ssr: false })
 
 const SummaryLeft = () => {
 
-    useEffect(() => {
-        console.log(window)
-    }, [window])
-
 
     return (
         <div className="p-4">
